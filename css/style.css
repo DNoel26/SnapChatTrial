@@ -1,0 +1,266 @@
+/* General */
+
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    max-width: 100%;
+}
+
+body
+{
+    font-family: Helvetica, sans-serif;
+    line-height: 1.4rem;
+    color: #000000;
+}
+
+/* Header */
+
+header
+{
+    width: 100%;
+    min-width: 1200px;
+    position: sticky;
+    top: 0; 
+    font-weight:bold;   
+}
+
+#top-yellow-header
+{
+    background-color: #fffc00;
+    padding: 0.8rem 0;
+}
+
+#bottom-white-header
+{
+    background-color: #ffffff;
+    padding: 0.9rem 0;
+    /* border-bottom-style: solid;
+    border-bottom-width: 1px;
+    border-color: #000000; */
+}
+
+nav > ul
+{
+    margin: 0 0 0 15rem;
+}
+
+nav > ul > li
+{
+    display: inline-block;
+    text-align: center;
+    margin: 0 3rem 0 0;
+}
+
+nav > ul > li > a
+{
+    text-decoration: none;
+    color: #000000;
+
+}
+
+/* Main - First Section */
+
+#main-section-one
+{
+    height: 100px;
+    width: 100%;
+    background-image: url("../img/img-header.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    text-align: center;
+    padding: 6rem 0 12rem 0;
+    font-weight: 900;
+}
+
+/* #main-section-one-background-image
+{   
+    
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: -1;
+} */
+
+#main-section-one > h1
+{
+    color: #ffffff;
+    padding: 0 0 2rem 0;
+}
+
+#main-section-one > a
+{
+    background-color: #fffc00;
+    padding: 1rem 2rem;
+    border: none;
+    border-radius: 100px;
+    cursor: pointer;
+    text-transform: uppercase;
+    font-size: 0.75rem;
+    margin-top: 1rem;
+    letter-spacing: 0.2rem;
+    text-decoration: none;
+    color: #000000;
+}
+
+/* Main - Second Section */
+
+#main-section-two
+{
+    margin-top: 2rem;
+    text-align: center;
+    width: 40%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#main-section-two > h2
+{
+    margin-bottom: 1rem;
+}
+
+/* Main - Third Section */
+
+#main-section-three
+{
+    width: 100%;
+    background-color: #f9f9f9;
+    margin-top: 2rem;
+    text-align: center;
+}
+
+#main-section-three > h2
+{
+    text-align: center;
+    padding: 3rem 0 2rem 0;
+}
+
+#main-section-three-div 
+{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    width: 80%;
+    margin: auto;
+}
+
+#main-section-three-div > div
+{
+    padding: 0 16px;
+}
+
+#main-section-three-div > div > div > img
+{
+    max-width: 6rem;
+    max-height: auto;
+}
+
+h3 + p
+{
+    padding: 20px 0 0 0;
+}
+
+div + h3
+{
+    padding: 12px 0 0 0;
+}
+
+/* Main - Fourth Section */
+
+#main-section-four
+{
+    margin-top: 3rem;
+    text-align: left;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-row-gap: 2rem;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#main-section-four > div
+{
+    margin: 0 1rem;
+}
+
+#main-section-four > div > h2
+{
+    padding: 8rem 0 0.5rem 0;
+}
+
+#main-section-four > div > p
+{
+    padding: 0.5rem 0 8rem 0;
+}
+
+#main-section-four > div > img
+{
+    border: none;
+    border-radius: 2rem;
+}
+
+/* Main - Fifth Section */
+
+#main-section-five 
+{
+    margin-top: 3rem;
+    height: 668px;
+    width: 100%;
+    background-color: #fffc00;
+    color: #000000;
+    font-weight: 900;
+    text-align: center;
+    padding: 18rem 0 6rem 0
+}
+
+#main-section-five > h3
+{
+    padding: 0 0 3rem 0
+}
+
+#main-section-five > a
+{
+    background-color: #f9f9f9;
+    padding: 1rem 2rem;
+    border: none;
+    border-radius: 100px;
+    cursor: pointer;
+    text-transform: uppercase;
+    font-size: 0.75rem;
+    margin-top: 1rem;
+    letter-spacing: 0.2rem;
+    text-decoration: none;
+}
+
+/* Footer */
+
+footer
+{
+    width: 100%;
+    min-width: 1200px;     
+    padding: 0.8rem 0;
+    margin-bottom: 2.5rem;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    border-bottom-color: #000000;
+}
+
+footer > ul
+{
+    margin: 0 0 0 15rem;
+}
+
+footer > ul > li
+{
+    display: inline-block;
+    text-align: center;    
+    margin: 0 3rem 0 0;
+}
+
+footer > ul > li > a
+{
+    text-decoration: none;
+    color: #000000;
+}
